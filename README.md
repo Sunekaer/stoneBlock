@@ -1,5 +1,4 @@
 # stoneBlock
-# To disable the "Create an Island" Banner, go to main/pause menu->mod options->void island control->config->othersettings->hideToasts
 
 This modpack is kinda like SkyBlock, except you don't start tree and your surrounded by stone
 It´s a kitchen-sink modpack with lots of quests to help guide you in the start and to give the players goals to reach
