@@ -12,3 +12,6 @@ A decent CPU.
 Note:
 Choose the world type "Void? World" in single-player, or "voidworld" on servers.
 If something regarding quests or quests rewards is mentiond in the update log, do "/bq_admin default load" and "/bqs_loot default load" to update your questbook.
+
+
+https://discord.gg/tsuFzB2
