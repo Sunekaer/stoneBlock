@@ -6,7 +6,7 @@ It´s a kitchen-sink modpack with lots of quests to help guide you in the start 
 This is not a lightweight pack
 Requirements:
 The Twitch App to download it
-At least 5-6GB of RAM allocated to the pack.
+At least 4-6GB of RAM allocated to the pack.
 A decent CPU.
 
 Note:
