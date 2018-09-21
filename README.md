@@ -1,4 +1,5 @@
 # stoneBlock
+# All issues created without using the templates will be closed and ignored 
 
 This modpack is kinda like SkyBlock, except you don't start with a tree and you're surrounded by stone
 It´s a kitchen-sink modpack with lots of quests to help guide you in the start and to give the players goals to reach
