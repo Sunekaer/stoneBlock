@@ -1,0 +1,562 @@
+{
+  "version": "1.1",
+  "dimensions": [
+    {
+      "dimension": "-1",
+      "ores": [
+        {
+          "block": "minecraft:quartz_ore",
+          "parameters": {
+            "size": 15,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        }
+      ]
+    },
+    {
+      "dimension": "0",
+      "ores": [
+        {
+          "block": "minecraft:coal_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:iron_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:gold_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:diamond_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:redstone_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:lapis_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:emerald_ore",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:dirt",
+          "state": "snowy\u003dfalse,variant\u003ddirt",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:gravel",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:stone",
+          "state": "variant\u003dgranite",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:stone",
+          "state": "variant\u003ddiorite",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "minecraft:stone",
+          "state": "variant\u003dandesite",
+          "parameters": {
+            "size": 0,
+            "variation": 0,
+            "frequency": 0,
+            "minHeight": 0,
+            "maxHeight": 0
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        }
+      ]
+    },
+    {
+      "dimension": "6",
+      "ores": [
+        {
+          "block": "chisel:limestone2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 18,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "chisel:marble2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 20,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "chisel:basalt2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 18,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dcopper_ore",
+          "parameters": {
+            "size": 16,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dlead_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 4.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dtin_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 4.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003duranium_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 3.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:rubber_wood",
+          "state": "state\u003dplain_y",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:leaves",
+          "state": "check_decay\u003dtrue,decayable\u003dtrue,type\u003drubber",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "evilcraft:dark_ore",
+          "state": "glowing\u003dtrue",
+          "parameters": {
+            "size": 4,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 66
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dosmium",
+          "parameters": {
+            "size": 12,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dcopper",
+          "parameters": {
+            "size": 4,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dtin",
+          "parameters": {
+            "size": 14,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        }
+      ]
+    },
+    {
+      "dimension": "-9999",
+      "ores": [
+        {
+          "block": "chisel:limestone2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 18,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "chisel:marble2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 20,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "chisel:basalt2",
+          "state": "variation\u003d7",
+          "parameters": {
+            "size": 18,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dcopper_ore",
+          "parameters": {
+            "size": 16,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dlead_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 4.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003dtin_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 4.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:resource",
+          "state": "type\u003duranium_ore",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 3.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:rubber_wood",
+          "state": "state\u003dplain_y",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "ic2:leaves",
+          "state": "check_decay\u003dtrue,decayable\u003dtrue,type\u003drubber",
+          "parameters": {
+            "size": 6,
+            "variation": 4,
+            "frequency": 7.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "evilcraft:dark_ore",
+          "state": "glowing\u003dtrue",
+          "parameters": {
+            "size": 4,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 66
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dosmium",
+          "parameters": {
+            "size": 12,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dcopper",
+          "parameters": {
+            "size": 4,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        },
+        {
+          "block": "mekanism:oreblock",
+          "state": "type\u003dtin",
+          "parameters": {
+            "size": 14,
+            "variation": 2,
+            "frequency": 7.0,
+            "minHeight": 6,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        }
+      ]
+    }
+  ]
+}

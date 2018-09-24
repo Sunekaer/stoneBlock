@@ -1,0 +1,72 @@
+{
+	"defaults": {
+		"__comment": "You can disable defaults by setting these to false. Do *NOT* try to add additional entries here. You can add additional entries in the custom section.",
+		"minecraft:cobblestone": true,
+		"minecraft:gravel": false,
+		"minecraft:sand": true
+	},
+	"custom": {
+		"__comment": "By default, the chicken stick is limited as to what it can hammer. You can define additional blocks here. Use * as a wildcard for metadata.",
+		"entries": [{
+				"name": "minecraft:stone",
+				"metadata": "0",
+				"rewards": [{
+					"name": "minecraft:cobblestone",
+					"count": 1,
+					"metadata": "0",
+					"chance": 1.0,
+					"luck": 0.0
+				}]
+			},
+			{
+				"name": "minecraft:gravel",
+				"metadata": "0",
+				"rewards": [{
+					"name": "minecraft:dirt",
+					"count": 1,
+					"metadata": "0",
+					"chance": 1.0,
+					"luck": 0.0
+				}]
+			},
+			{
+				"name": "minecraft:dirt",
+				"metadata": "0",
+				"rewards": [{
+					"name": "minecraft:sand",
+					"count": 1,
+					"metadata": "0",
+					"chance": 1.0,
+					"luck": 0.0
+				}]
+			},
+			{
+				"name": "minecraft:end_stone",
+				"metadata": "0",
+				"rewards": [{
+					"name": "exnihilocreatio:block_endstone_crushed",
+					"count": 1,
+					"metadata": "0",
+					"chance": 1.0,
+					"luck": 0.0
+				}]
+			},
+			{
+				"name": "minecraft:netherrack",
+				"metadata": "0",
+				"rewards": [{
+					"name": "exnihilocreatio:block_netherrack_crushed",
+					"count": 1,
+					"metadata": "0",
+					"chance": 1.0,
+					"luck": 0.0
+				}]
+			}
+		],
+		"example": {
+			"__comment": "This example would allow smooth Stone to be hammered with the Chicken Stick.",
+			"name": "minecraft:stone",
+			"metadata": "0"
+		}
+	}
+}

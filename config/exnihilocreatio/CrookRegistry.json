@@ -1,0 +1,354 @@
+{
+  "minecraft:leaves:8": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:7": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:10": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:9": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:4": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:14": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:3": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:13": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:6": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:5": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:15": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:10": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:9": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:15": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:12": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:11": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:6": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:12": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:5": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:11": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:8": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:14": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:7": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:13": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:2": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:1": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:4": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:3": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves2:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:2": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:leaves:1": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ]
+}

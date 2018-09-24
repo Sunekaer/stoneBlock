@@ -1,0 +1,25 @@
+//Stew
+mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+mods.avaritia.ExtremeCrafting.addShapeless("ultimate_stew" ,<avaritia:ultimate_stew> * 4, [ <avaritia:resource:2>,
+                                                                                            <mysticalagriculture:water_essence>,
+                                                                                            <mysticalagriculture:fire_essence>,
+                                                                                            <minecraft:wheat>,
+                                                                                            <minecraft:carrot>,
+                                                                                            <minecraft:potato>,
+                                                                                            <harvestcraft:dragonfruititem>,
+                                                                                            <harvestcraft:beetitem>,
+                                                                                            <harvestcraft:garlicitem>,
+                                                                                            <harvestcraft:soybeanitem>,
+                                                                                            <harvestcraft:eggplantitem>,
+                                                                                            <harvestcraft:broccoliitem>,
+                                                                                            <harvestcraft:carrotsoupitem>,
+                                                                                            <harvestcraft:meatloafitem>,
+                                                                                            <harvestcraft:harvestpumpkinitem>,
+                                                                                            <minecraft:chorus_fruit>,
+                                                                                            <minecraft:beetroot_soup>,
+                                                                                            <harvestcraft:beefjerkyitem>,
+                                                                                            <harvestcraft:epicbaconitem>,
+                                                                                            <minecraft:beef>,
+                                                                                            <minecraft:porkchop>,
+                                                                                            <minecraft:rabbit_stew>
+]);

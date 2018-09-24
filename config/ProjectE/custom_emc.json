@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 500
+    },
+    {
+      "item": "appliedenergistics2:sky_stone_block|0",
+      "emc": 128
+    },
+    {
+      "item": "appliedenergistics2:material|0",
+      "emc": 256
+    },
+    {
+      "item": "appliedenergistics2:material|1",
+      "emc": 256
+    },
+    {
+      "item": "appliedenergistics2:material|2",
+      "emc": 128
+    },
+    {
+      "item": "appliedenergistics2:material|13",
+      "emc": 512
+    },
+    {
+      "item": "appliedenergistics2:material|14",
+      "emc": 512
+    },
+    {
+      "item": "appliedenergistics2:material|15",
+      "emc": 512
+    },
+    {
+      "item": "appliedenergistics2:material|19",
+      "emc": 512
+    },
+    {
+      "item": "botania:manaresource|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:manaresource|1",
+      "emc": 1024
+    },
+    {
+      "item": "botania:manaresource|2",
+      "emc": 1024
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 10240
+    },
+    {
+      "item": "bigreactors:ingotmetals|5",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 512
+    },
+    {
+      "item": "projecte:condenser_mk1|0",
+      "emc": 12470534
+    },
+    {
+      "item": "projecte:condenser_mk2|0",
+      "emc": 24941068
+    },
+    {
+      "item": "avaritia:resource|5",
+      "emc": 7482318
+    },
+    {
+      "item": "projecte:transmutation_table|0",
+      "emc": 12470534
+    },
+    {
+      "item": "projecte:item.pe_transmutation_tablet|0",
+      "emc": 24941068
+    },
+    {
+      "item": "projecte:item.pe_tome|0",
+      "emc": 24941068
+    },
+    {
+      "item": "enderstorage:ender_storage|0",
+      "emc": 512
+    },
+    {
+      "item": "enderstorage:ender_storage|1",
+      "emc": 512
+    },
+    {
+      "item": "hatchery:chickenmanure|0",
+      "emc": 37
+    },
+    {
+      "item": "roost:collector|0",
+      "emc": 528
+    },
+    {
+      "item": "minecraft:dragon_breath|0",
+      "emc": 262144
+    },
+    {
+      "item": "actuallyadditions:item_misc|19",
+      "emc": 401664
+    },
+    {
+      "item": "exnihilocreatio:item_pebble|0",
+      "emc": 1
+    }
+  ]
+}

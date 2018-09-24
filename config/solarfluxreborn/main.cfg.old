@@ -1,0 +1,233 @@
+# Configuration file
+
+cables {
+    # How much RF can first cable transfer. [range: 1.0 ~ 1000000.0, default: 320.0]
+    S:"cable t1"=320.0
+
+    # How much RF can second cable transfer. [range: 1.0 ~ 1000000.0, default: 3200.0]
+    S:"cable t2"=3200.0
+
+    # How much RF can last cable transfer. [range: 1.0 ~ 1000000.0, default: 320000.0]
+    S:"cable t3"=320000.0
+}
+
+
+crafting {
+    # Whether or not unprepared solar panels will be added to the game. [default: true]
+    B:UnpreparedSolars=true
+}
+
+
+general {
+    # Neighbor solar panels share their energy if set to true. [default: true]
+    B:BalanceEnergy=true
+
+    # Use connected textures for the solar panels. [default: true]
+    B:ConnectedTextures=true
+
+    # Whether or not the solar panels keep their internal energy when dismantled with a wrench. [default: true]
+    B:KeepEnergyWhenDismantled=true
+
+    # Whether or not the solar panels keep their internal inventory when dismantled with a wrench. [default: true]
+    B:KeepInventoryWhenDismantled=true
+
+    # What thickness should panels be? [range: 0.0625 ~ 1.0, default: 0.375]
+    S:"Panel Thickness"=0.375
+
+    # Factor used to reduce the energy generation during rainy weather. [range: 0.0 ~ 1.0, default: 0.4]
+    S:RainProductionFactor=0.4
+
+    # Factor used to reduce the energy generation during stormy weather. [range: 0.0 ~ 1.0, default: 0.4]
+    S:ThunderProductionFactor=0.4
+}
+
+
+solar_panel_tier0 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 25000]
+    I:Capacity=25000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 1]
+    I:MaximumEnergyGeneration=1
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 8]
+    I:MaximumEnergyTransfer=8
+}
+
+
+solar_panel_tier1 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 125000]
+    I:Capacity=125000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 8]
+    I:MaximumEnergyGeneration=8
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 64]
+    I:MaximumEnergyTransfer=64
+}
+
+
+solar_panel_tier2 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 425000]
+    I:Capacity=425000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 32]
+    I:MaximumEnergyGeneration=32
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 256]
+    I:MaximumEnergyTransfer=256
+}
+
+
+solar_panel_tier3 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 2000000]
+    I:Capacity=2000000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 128]
+    I:MaximumEnergyGeneration=128
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 1024]
+    I:MaximumEnergyTransfer=1024
+}
+
+
+solar_panel_tier4 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 8000000]
+    I:Capacity=8000000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 512]
+    I:MaximumEnergyGeneration=512
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 4096]
+    I:MaximumEnergyTransfer=4096
+}
+
+
+solar_panel_tier5 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 32000000]
+    I:Capacity=32000000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 2048]
+    I:MaximumEnergyGeneration=2048
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 16384]
+    I:MaximumEnergyTransfer=16384
+}
+
+
+solar_panel_tier6 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 64000000]
+    I:Capacity=64000000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 8192]
+    I:MaximumEnergyGeneration=8192
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 64000]
+    I:MaximumEnergyTransfer=64000
+}
+
+
+solar_panel_tier7 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: true]
+    B:Active=true
+
+    # Amount of RF that can be stored. [range: 1 ~ 2000000000, default: 128000000]
+    I:Capacity=128000000
+
+    # Maximum amount of RF generated per tick. [range: 1 ~ 2000000000, default: 32768]
+    I:MaximumEnergyGeneration=32768
+
+    # Maximum amount of RF transferred per tick. [range: 1 ~ 2000000000, default: 256000]
+    I:MaximumEnergyTransfer=256000
+}
+
+
+solar_panel_tier8 {
+    # Whether or not this tier of Solar Panel should be added to the game. [default: false]
+    B:Active=false
+}
+
+
+upgrades {
+    # Whether or not capacity upgrades should be added to the game. [default: true]
+    B:CapacityUpgradeActive=true
+
+    # Factor by which the capacity is increased per upgrade. [range: 0.01 ~ 10.0, default: 0.1]
+    S:CapacityUpgradeIncrease=0.1
+
+    # Maximum number of capacity upgrade that can be added to a single solar panel. [range: 1 ~ 256, default: 16]
+    I:CapacityUpgradeMax=16
+
+    # Returns to scale. How does the transfer rate scales as you add more upgrades. 1 is linear. Below 1 reduces the efficiency as you add upgrades, Above 1 does the opposite. [range: 0.1 ~ 2.0, default: 1.0]
+    S:CapacityUpgradeReturnsToScale=1.0
+
+    # Whether or not efficiency upgrades should be added to the game. [default: true]
+    B:EfficiencyUpgradeActive=true
+
+    # Factor by which the energy production is increased per upgrade. [range: 0.01 ~ 10.0, default: 0.05]
+    S:EfficiencyUpgradeIncrease=0.05
+
+    # Maximum number of efficiency upgrade that can be added to a single solar panel. [range: 1 ~ 256, default: 8]
+    I:EfficiencyUpgradeMax=8
+
+    # Returns to scale. How does the efficiency scales as you add more upgrades. 1 is linear. Below 1 reduces the efficiency as you add upgrades, Above 1 does the opposite. [range: 0.1 ~ 2.0, default: 0.9]
+    S:EfficiencyUpgradeReturnsToScale=0.9
+
+    # Whether or not furnace upgrades should be added to the game. [default: true]
+    B:FurnaceUpgradeActive=true
+
+    # Amount of RF per tick used to heat up a furnace. [range: 1 ~ 64000, default: 8]
+    I:FurnaceUpgradeHeatingConsumption=8
+
+    # Whether or not low light upgrades should be added to the game. [default: true]
+    B:LowLightUpgradeActive=true
+
+    # Maximum number of low light upgrade that can be added to a single solar panel. [range: 1 ~ 256, default: 8]
+    I:LowLightUpgradeMax=8
+
+    # Whether or not transfer rate upgrades should be added to the game. [default: true]
+    B:TransferRateUpgradeActive=true
+
+    # Factor by which the transfer rate is increased per upgrade. [range: 0.01 ~ 10.0, default: 0.1]
+    S:TransferRateUpgradeIncrease=0.1
+
+    # Maximum number of transfer rate upgrade that can be added to a single solar panel. [range: 1 ~ 256, default: 8]
+    I:TransferRateUpgradeMax=8
+
+    # Returns to scale. How does the transfer rate scales as you add more upgrades. 1 is linear. Below 1 reduces the efficiency as you add upgrades, Above 1 does the opposite. [range: 0.1 ~ 2.0, default: 0.9]
+    S:TransferRateUpgradeReturnsToScale=0.9
+
+    # Whether or not traversal upgrades should be added to the game. [default: true]
+    B:TraversalUpgradeActive=true
+
+    # How many extra machines can be traversed per extra upgrade. [range: 1 ~ 10, default: 1]
+    I:TraversalUpgradeIncrease=1
+
+    # Maximum number of traversal upgrade that can be added to a single solar panel. [range: 1 ~ 256, default: 64]
+    I:TraversalUpgradeMax=64
+
+    # Update rate of traversal. Increase to reduce lag. But machines will be discovered slower. [range: 1 ~ 1200, default: 25]
+    I:TraversalUpgradeUpdateRate=25
+}
+
+

@@ -1,0 +1,10 @@
+[
+  {
+    "inputFluid": "water",
+    "reactant": {
+      "name": "exnihilocreatio:item_material",
+      "meta": 3
+    },
+    "output": "witchwater"
+  }
+]

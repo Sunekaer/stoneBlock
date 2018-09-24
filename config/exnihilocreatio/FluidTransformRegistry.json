@@ -1,0 +1,36 @@
+[
+  {
+    "inputFluid": "water",
+    "outputFluid": "witchwater",
+    "transformingBlocks": [
+      {
+        "name": "minecraft:mycelium",
+        "meta": 0
+      }
+    ],
+    "blocksToSpawn": [
+      {
+        "name": "minecraft:brown_mushroom",
+        "meta": 0
+      },
+      {
+        "name": "minecraft:red_mushroom",
+        "meta": 0
+      }
+    ],
+    "duration": 10000
+  },
+  {
+    "inputFluid": "witchwater",
+    "outputFluid": "blood",
+    "transformingBlocks": [
+      {
+        "name": "tp:flesh_block",
+        "meta": 0
+      }
+    ],
+    "blocksToSpawn": [
+    ],
+    "duration": 36000
+  }
+]

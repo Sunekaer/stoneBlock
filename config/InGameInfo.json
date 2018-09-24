@@ -1,0 +1,94 @@
+{
+  "topleft": [
+    [
+      {
+        "str": "Day {day}, {mctime} ("
+      },
+      {
+        "if": [
+          {
+            "var": "daytime"
+          },
+          {
+            "str": "$eDay"
+          },
+          {
+            "str": "$8Night"
+          }
+        ]
+      },
+      {
+        "str": " time$f)"
+      }
+    ],
+    [
+      {
+        "str": "Biome: $e{biome}$f"
+      },
+      {
+        "if": [
+          {
+            "var": "slimes"
+          },
+          {
+            "str": " ($aSlime$f)"
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": "FPS: "
+      },
+      {
+        "op": [
+          {
+            "str": "gt"
+          },
+          {
+            "var": "fps"
+          },
+          {
+            "num": 60
+          },
+          {
+            "num": 45
+          },
+          {
+            "num": 30
+          },
+          {
+            "num": 15
+          },
+          {
+            "num": 0
+          },
+          {
+            "str": "$a"
+          },
+          {
+            "str": "$e"
+          },
+          {
+            "str": "$6"
+          },
+          {
+            "str": "$c"
+          },
+          {
+            "str": "$4"
+          },
+          {
+            "str": ""
+          }
+        ]
+      },
+      {
+        "var": "fps"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:obsidian",
+      "meta": 0
+    }
+  },
+  {
+    "fluidInBarrel": "water",
+    "fluidOnTop": "lava",
+    "result": {
+      "name": "minecraft:cobblestone",
+      "meta": 0
+    }
+  }
+]

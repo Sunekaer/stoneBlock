@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Alloy: Black Dye Charcoal" required="false" disabled="true">
+    <alloying energy="2000" exp="0.25">
+      <input name="dustCharcoal" amount="6"/>
+      <input name="oredict:slimeball"/>
+      <output name="ORGANIC_BLACK_DYE" amount="2"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Black Dye Charcoal, Variant" required="false" disabled="true">
+    <alloying energy="1500" exp="0.125">
+      <input name="dustCharcoal" amount="3"/>
+      <input name="oredict:egg"/>
+      <output name="ORGANIC_BLACK_DYE"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Ender Pearl Nuggets" required="true" disabled="true">
+    <crafting>
+      <shapeless>
+        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
+        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
+        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
+      </shapeless>
+      <output name="oredict:enderpearl"/>
+    </crafting>
+  </recipe>
+
+</enderio:recipes>

@@ -1,0 +1,153 @@
+[
+    {
+        "mode": "ADD",
+        "result": "projecte:collector_mk1",
+        "catalyst": "minecraft:furnace",
+        "energy": 4000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glass",
+            "minecraft:diamond_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:collector_mk2",
+        "catalyst": "projecte:collector_mk1",
+        "energy": 8000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "projecte:item.pe_matter"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:collector_mk3",
+        "catalyst": "projecte:collector_mk2",
+        "energy": 16000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "projecte:item.pe_matter,1,1"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:relay_mk1",
+        "catalyst": "minecraft:furnace",
+        "energy": 4000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:glass",
+            "minecraft:diamond_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:relay_mk2",
+        "catalyst": "projecte:relay_mk1",
+        "energy": 8000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "projecte:item.pe_matter"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:relay_mk3",
+        "catalyst": "projecte:relay_mk2",
+        "energy": 16000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "projecte:item.pe_matter,1,1"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk1",
+        "catalyst": "projecte:alchemical_chest",
+        "energy": 500000,
+        "tier": 2,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "ironchest:iron_chest,1,7",
+            "ironchest:iron_chest,1,5"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk2",
+        "catalyst": "projecte:condenser_mk1",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "projecte:matter_block",
+            "projecte:matter_block",
+            "projecte:matter_block",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "quantumstorage:quantum_storage_unit",
+            "quantumstorage:quantum_storage_unit",
+            "projecte:collector_mk3",
+            "projecte:relay_mk3"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:item.pe_tome",
+        "catalyst": "projecte:item.pe_transmutation_tablet",
+        "energy": 9999000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaotic_core",
+            "avaritia:endest_pearl"
+        ]
+    }
+]

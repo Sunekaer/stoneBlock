@@ -1,0 +1,761 @@
+{
+  "_comment": {
+    "name": "Just a Reference to the old system naming. Changing does nothing.",
+    "is_enabled": "Is chicken enabled?",
+    "lay_item": "Item the chicken will Lay.               modid:itemid:metadata:amount #example: minecraft:log:2:3",
+    "drop_item": "Item the chicken drops on death.        modid:itemid:metadata:amount #example: minecraft:bone",
+    "spawn_type": "Chicken spawn type, can be: NORMAL,SNOW,NONE,HELL",
+    "parent_1": "First parent, empty if it cant be breed. modid:chickenid #example: chickens:waterchicken",
+    "parent_2": "Second parent, empty if it cant be breed. ",
+    "lay_item_example": {
+      "itemID": "minecraft:gold_ingot",
+      "metaID": 0
+    },
+    "drop_item_example": {
+      "itemID": "minecraft:bone",
+      "metaID": 0,
+      "qty": 2,
+      "nbt": {
+        "display": {
+          "Name": "Bone of my Enemy"
+        }
+      }
+    }
+  },
+  "chickens:smartchicken": {
+    "name": "SmartChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:egg",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:egg",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:whitechicken": {
+    "name": "WhiteChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 15
+    },
+    "drop_item": {
+      "itemID": "minecraft:bone",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:yellowchicken": {
+    "name": "YellowChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 11
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 11
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:bluechicken": {
+    "name": "BlueChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 4
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 4
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:greenchicken": {
+    "name": "GreenChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 2
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 2
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:redchicken": {
+    "name": "RedChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 1
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 1
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:blackchicken": {
+    "name": "BlackChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:pinkchicken": {
+    "name": "PinkChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 9
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 9
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:redchicken",
+    "parent_2": "chickens:whitechicken"
+  },
+  "chickens:purplechicken": {
+    "name": "PurpleChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 5
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 5
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:bluechicken",
+    "parent_2": "chickens:redchicken"
+  },
+  "chickens:orangechicken": {
+    "name": "OrangeChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 14
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 14
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:redchicken",
+    "parent_2": "chickens:yellowchicken"
+  },
+  "chickens:lightbluechicken": {
+    "name": "LightBlueChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 12
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 12
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:whitechicken",
+    "parent_2": "chickens:bluechicken"
+  },
+  "chickens:limechicken": {
+    "name": "LimeChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 10
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 10
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:greenchicken",
+    "parent_2": "chickens:whitechicken"
+  },
+  "chickens:graychicken": {
+    "name": "GrayChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 8
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 8
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:blackchicken",
+    "parent_2": "chickens:whitechicken"
+  },
+  "chickens:cyanchicken": {
+    "name": "CyanChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 6
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 6
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:bluechicken",
+    "parent_2": "chickens:greenchicken"
+  },
+  "chickens:silverdyechicken": {
+    "name": "SilverDyeChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 7
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 7
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:graychicken",
+    "parent_2": "chickens:whitechicken"
+  },
+  "chickens:magentachicken": {
+    "name": "MagentaChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 13
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 13
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:purplechicken",
+    "parent_2": "chickens:pinkchicken"
+  },
+  "chickens:flintchicken": {
+    "name": "FlintChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:flint",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:flint",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:quartzchicken": {
+    "name": "QuartzChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:quartz",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:quartz",
+      "metaID": 0
+    },
+    "spawn_type": "HELL",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:logchicken": {
+    "name": "LogChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:log",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:log",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:sandchicken": {
+    "name": "SandChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:sand",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:sand",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:stringchicken": {
+    "name": "StringChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:string",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:spider_eye",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:blackchicken",
+    "parent_2": "chickens:logchicken"
+  },
+  "chickens:glowstonechicken": {
+    "name": "GlowstoneChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:glowstone_dust",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:glowstone_dust",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:quartzchicken",
+    "parent_2": "chickens:yellowchicken"
+  },
+  "chickens:gunpowderchicken": {
+    "name": "GunpowderChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:gunpowder",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:gunpowder",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:sandchicken",
+    "parent_2": "chickens:flintchicken"
+  },
+  "chickens:redstonechicken": {
+    "name": "RedstoneChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:redstone",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:redstone",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:redchicken",
+    "parent_2": "chickens:sandchicken"
+  },
+  "chickens:glasschicken": {
+    "name": "GlassChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:glass",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:glass",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:quartzchicken",
+    "parent_2": "chickens:redstonechicken"
+  },
+  "chickens:ironchicken": {
+    "name": "IronChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:iron_ingot",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:iron_ingot",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:flintchicken",
+    "parent_2": "chickens:whitechicken"
+  },
+  "chickens:coalchicken": {
+    "name": "CoalChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:coal",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:coal",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:flintchicken",
+    "parent_2": "chickens:logchicken"
+  },
+  "chickens:brownchicken": {
+    "name": "BrownChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 3
+    },
+    "drop_item": {
+      "itemID": "minecraft:dye",
+      "metaID": 3
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:redchicken",
+    "parent_2": "chickens:greenchicken"
+  },
+  "chickens:goldchicken": {
+    "name": "GoldChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:gold_nugget",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:gold_nugget",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:ironchicken",
+    "parent_2": "chickens:yellowchicken"
+  },
+  "chickens:snowballchicken": {
+    "name": "SnowballChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:snowball",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:snowball",
+      "metaID": 0
+    },
+    "spawn_type": "SNOW",
+    "parent_1": "chickens:bluechicken",
+    "parent_2": "chickens:logchicken"
+  },
+  "chickens:waterchicken": {
+    "name": "WaterChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "chickens:liquid_egg",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "chickens:liquid_egg",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:gunpowderchicken",
+    "parent_2": "chickens:snowballchicken"
+  },
+  "chickens:lavachicken": {
+    "name": "LavaChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "chickens:liquid_egg",
+      "metaID": 1
+    },
+    "drop_item": {
+      "itemID": "chickens:liquid_egg",
+      "metaID": 1
+    },
+    "spawn_type": "HELL",
+    "parent_1": "chickens:coalchicken",
+    "parent_2": "chickens:quartzchicken"
+  },
+  "chickens:claychicken": {
+    "name": "ClayChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:clay_ball",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:clay_ball",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:snowballchicken",
+    "parent_2": "chickens:sandchicken"
+  },
+  "chickens:leatherchicken": {
+    "name": "LeatherChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:leather",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:leather",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:stringchicken",
+    "parent_2": "chickens:brownchicken"
+  },
+  "chickens:netherwartchicken": {
+    "name": "NetherwartChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:nether_wart",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:nether_wart",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:brownchicken",
+    "parent_2": "chickens:glowstonechicken"
+  },
+  "chickens:diamondchicken": {
+    "name": "DiamondChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:diamond",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:diamond",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:glasschicken",
+    "parent_2": "chickens:goldchicken"
+  },
+  "chickens:blazechicken": {
+    "name": "BlazeChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:blaze_rod",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:blaze_rod",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:goldchicken",
+    "parent_2": "chickens:lavachicken"
+  },
+  "chickens:slimechicken": {
+    "name": "SlimeChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:slime_ball",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:slime_ball",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:claychicken",
+    "parent_2": "chickens:greenchicken"
+  },
+  "chickens:enderchicken": {
+    "name": "EnderChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:ender_pearl",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:ender_pearl",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:diamondchicken",
+    "parent_2": "chickens:netherwartchicken"
+  },
+  "chickens:ghastchicken": {
+    "name": "GhastChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:ghast_tear",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:ghast_tear",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:whitechicken",
+    "parent_2": "chickens:blazechicken"
+  },
+  "chickens:emeraldchicken": {
+    "name": "EmeraldChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:emerald",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:emerald",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:diamondchicken",
+    "parent_2": "chickens:greenchicken"
+  },
+  "chickens:magmachicken": {
+    "name": "MagmaChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:magma_cream",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:magma_cream",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:slimechicken",
+    "parent_2": "chickens:blazechicken"
+  },
+  "chickens:pshardchicken": {
+    "name": "pShardChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:prismarine_shard",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:prismarine_shard",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:waterchicken",
+    "parent_2": "chickens:bluechicken"
+  },
+  "chickens:pcrystalchicken": {
+    "name": "pCrystalChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:prismarine_crystals",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:prismarine_crystals",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:waterchicken",
+    "parent_2": "chickens:emeraldchicken"
+  },
+  "chickens:obsidianchicken": {
+    "name": "obsidianChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:obsidian",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:obsidian",
+      "metaID": 0
+    },
+    "spawn_type": "NORMAL",
+    "parent_1": "chickens:waterchicken",
+    "parent_2": "chickens:lavachicken"
+  },
+  "chickens:soulsandchicken": {
+    "name": "soulSandChicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:soul_sand",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "minecraft:soul_sand",
+      "metaID": 0
+    },
+    "spawn_type": "HELL",
+    "parent_1": "",
+    "parent_2": ""
+  }
+}
