@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
-
+  <!-- Disable stuff START-->
   <recipe name="Alloy: Black Dye Charcoal" required="false" disabled="true">
     <alloying energy="2000" exp="0.25">
       <input name="dustCharcoal" amount="6"/>
@@ -27,5 +27,31 @@
       <output name="oredict:enderpearl"/>
     </crafting>
   </recipe>
+  <!-- Disable stuff START-->
+
+  <!-- Ex Nihilo Creatio Enchants START-->
+  <recipe name="Enchanter: exnihilocreatio:sieve_fortune" required="true">
+    <enchanting>
+      <input name="excompressum:compressed_block:7" amount="10"/>
+      <enchantment name="exnihilocreatio:sieve_fortune" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: exnihilocreatio:sieve_efficiency" required="true">
+    <enchanting>
+      <input name="excompressum:compressed_block:6" amount="8"/>
+      <enchantment name="exnihilocreatio:sieve_efficiency" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: exnihilocreatio:sieve_luck_of_the_sea" required="true">
+    <enchanting>
+      <input name="excompressum:compressed_block" amount="4"/>
+      <enchantment name="exnihilocreatio:sieve_luck_of_the_sea" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <!-- Ex Nihilo Creatio Enchants END-->
+
+
 
 </enderio:recipes>
