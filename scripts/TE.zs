@@ -17,3 +17,16 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<mekanism:oreblock>, <exnihiloc
 //Remove buged recipe
 //mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bucket>, <liquid:water>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:log:*>, <liquid:creosote>);
+
+//Tin & Bronze Gear
+recipes.addShaped(<thermalfoundation:material:257>,[
+	[null,<thermalfoundation:material:129>,null],
+	[<thermalfoundation:material:129>,<ore:gearStone>,<thermalfoundation:material:129>],
+	[null,<thermalfoundation:material:129>,null]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:291>,[
+	[null,<thermalfoundation:material:163>,null],
+	[<thermalfoundation:material:163>,<ore:gearStone>,<thermalfoundation:material:163>],
+	[null,<thermalfoundation:material:163>,null]
+	]);
