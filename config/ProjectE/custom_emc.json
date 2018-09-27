@@ -111,6 +111,10 @@
     {
       "item": "exnihilocreatio:item_pebble|0",
       "emc": 1
+    },
+    {
+      "item": "redstonearsenal:storage|0",
+      "emc": 25056
     }
   ]
 }
