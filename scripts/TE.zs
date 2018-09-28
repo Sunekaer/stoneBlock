@@ -30,3 +30,11 @@ recipes.addShaped(<thermalfoundation:material:291>,[
 	[<thermalfoundation:material:163>,<ore:gearStone>,<thermalfoundation:material:163>],
 	[null,<thermalfoundation:material:163>,null]
 	]);
+
+
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:cobblestone>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:gravel>);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 4000);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dirt>, <minecraft:gravel>, 4000);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:sand>, <minecraft:dirt>, 4000);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);

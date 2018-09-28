@@ -54,4 +54,61 @@
 
 
 
+
+
+  <recipe name="Sagmill: Silicon" required="true" disabled="true">
+    <sagmilling energy="720">
+      <input name="oredict:sand"/>
+      <output name="itemSilicon" chance="0.5" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Cobblestone" required="true" disabled="true">
+    <sagmilling energy="2400">
+      <input name="oredict:cobblestone"/>
+      <output name="oredict:gravel" chance="0.7" />
+      <output name="oredict:gravel" chance="0.3" />
+      <output name="oredict:sand" chance="0.1" />
+      <output name="oredict:itemFlint" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Gravel" required="true" disabled="true">
+    <sagmilling energy="2400">
+      <input name="oredict:gravel"/>
+      <output name="oredict:sand" chance="0.7" />
+      <output name="oredict:sand" chance="0.3" />
+      <output name="oredict:itemFlint" chance="0.3" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Cobblestone" required="true">
+    <sagmilling energy="2400">
+      <input name="oredict:cobblestone"/>
+      <output name="oredict:gravel" chance="0.7" />
+      <output name="oredict:gravel" chance="0.3" />
+      <output name="oredict:itemFlint" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Gravel" required="true">
+    <sagmilling energy="2400">
+      <input name="oredict:gravel"/>
+      <output name="oredict:dirt" chance="0.7" />
+      <output name="oredict:dirt" chance="0.3" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Dirt" required="true">
+    <sagmilling energy="2400">
+      <input name="oredict:dirt"/>
+      <output name="oredict:sand" chance="0.7" />
+      <output name="oredict:sand" chance="0.3" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sand" required="true">
+    <sagmilling energy="2400">
+      <input name="oredict:sand"/>
+      <output name="oredict:dust" chance="0.7" />
+      <output name="oredict:dust" chance="0.3" />
+    </sagmilling>
+  </recipe>
+
+
 </enderio:recipes>
