@@ -185,7 +185,7 @@
       ]
     },
     {
-      "dimension": "6",
+      "dimension": "-6",
       "ores": [
         {
           "block": "chisel:limestone2",
