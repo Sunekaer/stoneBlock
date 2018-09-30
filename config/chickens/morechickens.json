@@ -650,7 +650,7 @@
   },
   "morechickens:refinedironchicken": {
     "Name": "refinedironchicken",
-    "Is Enabled": true,
+    "Is Enabled": false,
     "Lay Coefficient": 1.0,
     "Lay Item": "ic2:ingot:7",
     "Drop Item": "ic2:ingot:7",
