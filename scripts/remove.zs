@@ -33,5 +33,8 @@ mods.jei.JEI.removeAndHide(<projecte:item.pe_harvest_god>);
 mods.jei.JEI.removeAndHide(<projecte:item.pe_time_watch>);
 mods.jei.JEI.removeAndHide(<projecte:item.pe_gem_density>);
 
-
+//IC2
 mods.jei.JEI.removeAndHide(<ic2:te:82>);
+
+//AE2
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
