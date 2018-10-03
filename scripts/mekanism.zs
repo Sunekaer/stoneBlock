@@ -9,7 +9,7 @@ mods.mekanism.combiner.addRecipe(<bigreactors:dustmetals:0> * 12, <minecraft:cob
 mods.mekanism.combiner.removeRecipe(<ic2:resource:4> * 1, <immersiveengineering:metal:14> * 8, <minecraft:cobblestone>);
 mods.mekanism.combiner.removeRecipe(<ic2:resource:4> * 1, <bigreactors:dustmetals:0> * 8, <minecraft:cobblestone>);
 
-
+mods.mekanism.crusher.removeRecipe(<refinedstorage:silicon>, <ore:sand>);
 mods.mekanism.crusher.removeRecipe(<minecraft:sand>, <minecraft:gravel>);
 mods.mekanism.crusher.addRecipe(<minecraft:gravel>, <minecraft:dirt>);
 mods.mekanism.crusher.addRecipe(<minecraft:dirt>, <minecraft:sand>);
