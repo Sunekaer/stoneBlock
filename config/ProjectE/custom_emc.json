@@ -115,6 +115,14 @@
     {
       "item": "redstonearsenal:storage|0",
       "emc": 25056
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 1281
+    },
+    {
+      "item": "thermalfoundation:material|164",
+      "emc": 576
     }
   ]
 }
