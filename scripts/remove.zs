@@ -35,3 +35,13 @@ mods.jei.JEI.removeAndHide(<projecte:item.pe_gem_density>);
 
 
 mods.jei.JEI.removeAndHide(<ic2:te:82>);
+
+
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_helm_emerald>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_helmet>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_chest_emerald>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_chestplate>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_pants_emerald>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_leggings>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_boots_emerald>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_boots>);
