@@ -38,3 +38,8 @@ mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:gravel>, <minecraft:cobble
 mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dirt>, <minecraft:gravel>, 4000);
 mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:sand>, <minecraft:dirt>, 4000);
 mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
+
+//mods.thermalexpansion.Insolator.addRecipe(IItemStack primaryOutput, IItemStack primaryInput, IItemStack secondaryInput, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:grains_of_infinity_essence>, <thermalfoundation:fertilizer>, <mysticalagriculture:grains_of_infinity_seeds>, 9600, <mysticalagriculture:grains_of_infinity_seeds>, 100);
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:grains_of_infinity_essence> *2, <thermalfoundation:fertilizer:1>, <mysticalagriculture:grains_of_infinity_seeds>, 14400, <mysticalagriculture:grains_of_infinity_seeds>, 100);
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:grains_of_infinity_essence> *3, <thermalfoundation:fertilizer:2>, <mysticalagriculture:grains_of_infinity_seeds>, 19200, <mysticalagriculture:grains_of_infinity_seeds>, 100);
