@@ -28,10 +28,10 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 6, <minecraft:
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 5, <minecraft:leather_leggings>, 14000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 2, <minecraft:leather_boots>, 8000);
 
-//Other Horse Armor
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 6, <minecraft:diamond_horse_armor>, 6000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18> * 6, <minecraft:iron_horse_armor>, 6000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:19> * 6, <minecraft:golden_horse_armor>, 6000);
+//Horse Armor
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_horse_armor>, 6000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material> * 2, <minecraft:iron_horse_armor>, 6000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, <minecraft:golden_horse_armor>, 6000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 3, <minecraft:saddle>, 3000);
 
 //Netherbrick back into individual bricks
