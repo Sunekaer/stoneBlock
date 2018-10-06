@@ -530,6 +530,13 @@ recipes.addShaped(<computercraft:cable:1>, [
 recipes.remove(<tconstruct:rack>);
 recipes.addShaped(<tconstruct:rack>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}), [[<ore:slabWood>, <ore:stickWood>]]);
 
+recipes.addShaped(<evilcraft:environmental_accumulation_core>,[
+  [null,<evilcraft:blood_infusion_core>,null],
+  [<evilcraft:blood_infusion_core>,<ore:slimeball>,<evilcraft:blood_infusion_core>],
+  [null,<evilcraft:blood_infusion_core>,null]
+  ]);
+
+
 //EMC Duping fix
 #Dark Utilities
 //Portal Charm
