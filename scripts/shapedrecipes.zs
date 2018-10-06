@@ -529,3 +529,13 @@ recipes.addShaped(<computercraft:cable:1>, [
 
 recipes.remove(<tconstruct:rack>);
 recipes.addShaped(<tconstruct:rack>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}), [[<ore:slabWood>, <ore:stickWood>]]);
+
+//EMC Duping fix
+#Dark Utilities
+//Portal Charm
+	recipes.remove(<darkutils:charm_portal>);
+	recipes.addShaped(<darkutils:charm_portal>,[
+		[null,<minecraft:string>,null],
+		[<minecraft:obsidian>,<minecraft:end_crystal>,<minecraft:obsidian>],
+		[null,<minecraft:obsidian>,null]
+		]);
