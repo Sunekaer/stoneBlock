@@ -1,7 +1,0 @@
-minecraft:vine
-minecraft:barrier
-minecraft:standing_banner
-minecraft:cobblestone_wall
-minecraft:chest
-minecraft:ender_chest
-minecraft:trapped_chest
