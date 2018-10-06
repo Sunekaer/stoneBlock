@@ -18,3 +18,4 @@ recipes.addShapeless(<ic2:resource:10>, [<ore:blockYellorium>]);
 recipes.removeShapeless(<minecraft:wheat_seeds> * 2, [<ore:cropWheat>, <ore:cropWheat>]);
 recipes.removeShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft:wheat>]);
 recipes.addShapeless(<minecraft:wheat_seeds> * 3, [<ore:cropWheat>, <ore:cropWheat>, <ore:cropWheat>]);
+recipes.addShapeless(<actuallyadditions:item_misc:4> * 2, [<ore:cropWheat>, <ore:foodFlour>]);
