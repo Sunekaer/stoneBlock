@@ -123,6 +123,14 @@
     {
       "item": "thermalfoundation:material|164",
       "emc": 576
+    },
+    {
+      "item": "extrautils2:flattransfernode|0",
+      "emc": 6
+    },
+    {
+      "item": "extrautils2:flattransfernode|1",
+      "emc": 16
     }
   ]
 }
