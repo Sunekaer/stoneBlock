@@ -21,3 +21,6 @@ recipes.addShapeless(<minecraft:wheat_seeds> * 3, [<ore:cropWheat>, <ore:cropWhe
 
 recipes.remove(<actuallyadditions:item_misc:4>);
 recipes.addShapeless(<actuallyadditions:item_misc:4> * 2, [<ore:cropWheat>, <natura:materials:2>]);
+
+recipes.remove(<harvestcraft:barleyseeditem>);
+recipes.addShapeless(<harvestcraft:barleyseeditem> * 2,[<harvestcraft:barleyitem>, <minecraft:wheat_seeds>]);
