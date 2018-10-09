@@ -93,5 +93,65 @@
 			"minecraft:grass",
 			"minecraft:gravel"
 		]
+	},
+	{
+		"type": "oreGen",
+		"identifier": "beehives",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "hive",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives:1"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "beehives",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives:2"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "beehives",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives:3"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "beehives",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives:5"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "beehives",
+		"enabled": true,
+		"amount": 1,
+		"size": 3,
+		"minHeight": 75,
+		"maxHeight": 85,
+		"ore": "forestry:beehives:6"
 	}
 ]
