@@ -540,9 +540,119 @@ recipes.addShaped(<evilcraft:environmental_accumulation_core>,[
 //EMC Duping fix
 #Dark Utilities
 //Portal Charm
-	recipes.remove(<darkutils:charm_portal>);
-	recipes.addShaped(<darkutils:charm_portal>,[
-		[null,<minecraft:string>,null],
-		[<minecraft:obsidian>,<minecraft:end_crystal>,<minecraft:obsidian>],
-		[null,<minecraft:obsidian>,null]
-		]);
+recipes.remove(<darkutils:charm_portal>);
+recipes.addShaped(<darkutils:charm_portal>,[
+	[null,<minecraft:string>,null],
+	[<minecraft:obsidian>,<minecraft:end_crystal>,<minecraft:obsidian>],
+	[null,<minecraft:obsidian>,null]
+	]);
+
+
+//recipe conflits from /ct conflicts
+recipes.remove(<minecraft:wooden_button>);
+recipes.addShaped(<minecraft:wooden_button>, [
+  [<ore:vanillaPlankWood>]
+]);
+recipes.remove(<minecraft:wooden_pressure_plate>);
+recipes.addShaped(<minecraft:wooden_pressure_plate>, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>]
+]);
+
+recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
+recipes.addShaped(<minecraft:stick> * 16, [
+  [<ore:vanillaLogWood>], [<ore:vanillaLogWood>]
+]);
+
+recipes.remove(<natura:sticks:12>);
+recipes.remove(<natura:sticks:11>);
+recipes.remove(<natura:sticks:10>);
+recipes.remove(<natura:sticks:9>);
+recipes.addShaped(<natura:sticks:12> * 4, [
+  [<natura:nether_planks:1>, null],
+  [null, <natura:nether_planks:1>]
+]);
+recipes.addShaped(<natura:sticks:11> * 4, [
+  [<natura:nether_planks:3>, null],
+  [null, <natura:nether_planks:3>]
+]);
+recipes.addShaped(<natura:sticks:10> * 4, [
+  [<natura:nether_planks:2>, null],
+  [null, <natura:nether_planks:2>]
+]);
+recipes.addShaped(<natura:sticks:9> * 4, [
+  [<natura:nether_planks>, null],
+  [null, <natura:nether_planks>]
+]);
+
+recipes.removeShaped(<minecraft:wooden_sword>);
+recipes.removeShaped(<minecraft:wooden_pickaxe>);
+recipes.removeShaped(<minecraft:wooden_shovel>);
+recipes.removeShaped(<minecraft:wooden_axe>);
+recipes.removeShaped(<minecraft:wooden_hoe>);
+recipes.addShaped(<minecraft:wooden_sword>, [
+  [<ore:vanillaPlankWood>],
+  [<ore:vanillaPlankWood>],
+  [<ore:stickWood>]
+]);
+recipes.addShaped(<minecraft:wooden_pickaxe>, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]
+]);
+recipes.addShaped(<minecraft:wooden_shovel>, [
+  [<ore:vanillaPlankWood>],
+  [<ore:stickWood>],
+  [<ore:stickWood>]
+]);
+recipes.addShaped(<minecraft:wooden_axe>, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
+  [<ore:vanillaPlankWood>, <ore:stickWood>],
+  [null, <ore:stickWood>]
+]);
+recipes.addShaped(<minecraft:wooden_hoe>, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
+  [null, <ore:stickWood>], [null, <ore:stickWood>]
+]);
+
+recipes.removeShaped(<natura:nether_bookshelves>);
+recipes.removeShaped(<natura:nether_bookshelves:1>);
+recipes.removeShaped(<natura:nether_bookshelves:2>);
+recipes.removeShaped(<natura:nether_bookshelves:3>);
+recipes.addShaped(<natura:nether_bookshelves>, [
+  [<natura:nether_planks>, <minecraft:book>, <natura:nether_planks>],
+  [<natura:nether_planks>, <minecraft:book>, <natura:nether_planks>],
+  [<natura:nether_planks>, <minecraft:book>, <natura:nether_planks>]
+]);
+recipes.addShaped(<natura:nether_bookshelves:1>, [
+  [<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>],
+  [<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>],
+  [<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>]
+]);
+recipes.addShaped(<natura:nether_bookshelves:2>, [
+  [<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>],
+  [<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>],
+  [<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>]
+]);
+recipes.addShaped(<natura:nether_bookshelves:3>, [
+  [<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>],
+  [<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>],
+  [<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>]
+]);
+
+recipes.removeShaped(<minecraft:crafting_table>, [
+  [<ore:plankWood>, <ore:plankWood>],
+  [<ore:plankWood>, <ore:plankWood>]
+]);
+recipes.addShaped(<minecraft:crafting_table>, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>]
+]);
+
+recipes.removeShaped(<minecraft:trapdoor> * 2, [
+  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+recipes.addShaped(<minecraft:trapdoor> * 2, [
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
+  [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>, <ore:vanillaPlankWood>]
+]);

@@ -6,3 +6,16 @@
 <ore:stickStone>.add(<microblockcbe:stone_rod>);
 <ore:dragonScale>.add(<mysticalagradditions:stuff:3>);
 <ore:ingotUranium>.remove(<bigreactors:ingotmetals>);
+<ore:vanillaPlankWood>.add(<minecraft:planks>);
+<ore:vanillaPlankWood>.add(<minecraft:planks:1>);
+<ore:vanillaPlankWood>.add(<minecraft:planks:2>);
+<ore:vanillaPlankWood>.add(<minecraft:planks:3>);
+<ore:vanillaPlankWood>.add(<minecraft:planks:4>);
+<ore:vanillaPlankWood>.add(<minecraft:planks:5>);
+<ore:vanillaLogWood>.add(<minecraft:log>);
+<ore:vanillaLogWood>.add(<minecraft:log:1>);
+<ore:vanillaLogWood>.add(<minecraft:log:2>);
+<ore:vanillaLogWood>.add(<minecraft:log:3>);
+<ore:vanillaLogWood>.add(<minecraft:log2>);
+<ore:vanillaLogWood>.add(<minecraft:log2:1>);
+<ore:forestryApple>.add(<forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.treeOak", UID0: "forestry.treeOak", Slot: 0 as byte}, {UID1: "forestry.heightSmall", UID0: "forestry.heightSmall", Slot: 1 as byte}, {UID1: "forestry.saplingsAverage", UID0: "forestry.saplingsAverage", Slot: 2 as byte}, {UID1: "forestry.fruitApple", UID0: "forestry.fruitApple", Slot: 3 as byte}, {UID1: "forestry.yieldLowest", UID0: "forestry.yieldLowest", Slot: 4 as byte}, {UID1: "forestry.sappinessLowest", UID0: "forestry.sappinessLowest", Slot: 5 as byte}, {UID1: "forestry.leavesNone", UID0: "forestry.leavesNone", Slot: 6 as byte}, {UID1: "forestry.maturationFaster", UID0: "forestry.maturationFaster", Slot: 7 as byte}, {UID1: "forestry.i1d", UID0: "forestry.i1d", Slot: 8 as byte}, {UID1: "forestry.fireproofFalse", UID0: "forestry.fireproofFalse", Slot: 9 as byte}]}}));

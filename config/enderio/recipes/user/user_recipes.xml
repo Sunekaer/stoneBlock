@@ -27,6 +27,16 @@
       <output name="oredict:enderpearl"/>
     </crafting>
   </recipe>
+
+  <recipe name="Tweak: Stick from Wood" required="false" disabled="true">
+    <crafting>
+      <grid size="1x2">
+        <item name="logWood"/>
+        <item name="logWood"/>
+      </grid>
+      <output name="stickWood" amount="16" />
+    </crafting>
+  </recipe>
   <!-- Disable stuff START-->
 
   <!-- Ex Nihilo Creatio Enchants START-->
