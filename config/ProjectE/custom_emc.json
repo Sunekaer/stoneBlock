@@ -62,11 +62,11 @@
     },
     {
       "item": "projecte:condenser_mk1|0",
-      "emc": 12470534
+      "emc": 2450655
     },
     {
       "item": "projecte:condenser_mk2|0",
-      "emc": 24941068
+      "emc": 9812381
     },
     {
       "item": "avaritia:resource|5",
@@ -131,6 +131,42 @@
     {
       "item": "extrautils2:flattransfernode|1",
       "emc": 16
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|0",
+      "emc": 8
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|1",
+      "emc": 13
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|2",
+      "emc": 914
+    },
+    {
+      "item": "projecte:collector_mk1|0",
+      "emc": 82953
+    },
+    {
+      "item": "projecte:collector_mk2|0",
+      "emc": 232969
+    },
+    {
+      "item": "projecte:collector_mk3|0",
+      "emc": 710665
+    },
+    {
+      "item": "projecte:relay_mk1|0",
+      "emc": 74121
+    },
+    {
+      "item": "projecte:relay_mk2|0",
+      "emc": 213833
+    },
+    {
+      "item": "projecte:relay_mk3|0",
+      "emc": 681225
     }
   ]
 }
