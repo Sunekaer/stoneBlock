@@ -7,7 +7,7 @@ mods.avaritia.ExtremeCrafting.addShapeless("ultimate_stew" ,<avaritia:ultimate_s
                                                                                             <minecraft:carrot>,
                                                                                             <minecraft:potato>,
                                                                                             <harvestcraft:dragonfruititem>,
-                                                                                            <ore:cropBeet>,
+                                                                                            <minecraft:beetroot>,
                                                                                             <harvestcraft:garlicitem>,
                                                                                             <harvestcraft:soybeanitem>,
                                                                                             <harvestcraft:eggplantitem>,

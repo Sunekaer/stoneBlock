@@ -70,7 +70,7 @@
     },
     {
       "item": "avaritia:resource|5",
-      "emc": 7482318
+      "emc": 7731170989
     },
     {
       "item": "projecte:transmutation_table|0",
@@ -167,6 +167,38 @@
     {
       "item": "projecte:relay_mk3|0",
       "emc": 681225
+    },
+    {
+      "item": "extrautils2:machine|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_collector|0",
+      "emc": 3166720
+    },
+    {
+      "item": "minecraft:cactus|0",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:dye|2",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:dye|3",
+      "emc": 16
+    },
+    {
+      "item": "chickens:spawn_egg|0",
+      "emc": 160
+    },
+    {
+      "item": "minecraft:dye|4",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:bone|0",
+      "emc": 48
     }
   ]
 }
