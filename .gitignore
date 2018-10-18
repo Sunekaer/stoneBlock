@@ -31,3 +31,4 @@ backups/2018-09-30-18-20-31.zip
 .mixin.out/audit/mixin_implementation_report.csv
 backups/*
 screenshots/*
+.curseclient
