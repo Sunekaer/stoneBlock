@@ -37,7 +37,17 @@
 		"size": 4,
 		"minHeight": 30,
 		"maxHeight": 80,
-		"ore": "aroma1997sdimension:miningore"
+		"ore": "minecraft:emerald_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "clay_ore",
+		"enabled": true,
+		"amount": 0.5,
+		"size": 20,
+		"minHeight": 60,
+		"maxHeight": 80,
+		"ore": "aroma1997sdimension:miningore:1"
 	},
 	{
 		"type": "lakes",
@@ -55,9 +65,9 @@
 		"type": "oreReplace",
 		"identifier": "removeDiamonds",
 		"enabled": false,
-		"targetBlock": "minecraft:stone",
+		"targetBlock": "minecraft:diamond_ore",
 		"originalBlock": [
-			"minecraft:diamond_ore"
+			"minecraft:stone"
 		]
 	},
 	{
@@ -89,7 +99,7 @@
 		"identifier": "beehives",
 		"enabled": true,
 		"amount": 1,
-		"size": 3,
+		"size": 1,
 		"minHeight": 75,
 		"maxHeight": 85,
 		"ore": "forestry:beehives"
@@ -109,7 +119,7 @@
 		"identifier": "beehives",
 		"enabled": true,
 		"amount": 1,
-		"size": 3,
+		"size": 1,
 		"minHeight": 75,
 		"maxHeight": 85,
 		"ore": "forestry:beehives:2"
@@ -119,7 +129,7 @@
 		"identifier": "beehives",
 		"enabled": true,
 		"amount": 1,
-		"size": 3,
+		"size": 1,
 		"minHeight": 75,
 		"maxHeight": 85,
 		"ore": "forestry:beehives:3"
@@ -129,7 +139,7 @@
 		"identifier": "beehives",
 		"enabled": true,
 		"amount": 1,
-		"size": 3,
+		"size": 1,
 		"minHeight": 75,
 		"maxHeight": 85,
 		"ore": "forestry:beehives:5"
@@ -139,7 +149,7 @@
 		"identifier": "beehives",
 		"enabled": true,
 		"amount": 1,
-		"size": 3,
+		"size": 1,
 		"minHeight": 75,
 		"maxHeight": 85,
 		"ore": "forestry:beehives:6"
