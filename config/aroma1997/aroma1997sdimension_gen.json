@@ -37,17 +37,7 @@
 		"size": 4,
 		"minHeight": 30,
 		"maxHeight": 80,
-		"ore": "minecraft:emerald_ore"
-	},
-	{
-		"type": "oreGen",
-		"identifier": "clay_ore",
-		"enabled": true,
-		"amount": 0.5,
-		"size": 20,
-		"minHeight": 60,
-		"maxHeight": 80,
-		"ore": "aroma1997sdimension:miningore:1"
+		"ore": "aroma1997sdimension:miningore"
 	},
 	{
 		"type": "lakes",
@@ -65,9 +55,9 @@
 		"type": "oreReplace",
 		"identifier": "removeDiamonds",
 		"enabled": false,
-		"targetBlock": "minecraft:diamond_ore",
+		"targetBlock": "minecraft:stone",
 		"originalBlock": [
-			"minecraft:stone"
+			"minecraft:diamond_ore"
 		]
 	},
 	{
