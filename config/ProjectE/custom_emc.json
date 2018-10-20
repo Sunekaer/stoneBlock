@@ -199,6 +199,10 @@
     {
       "item": "minecraft:bone|0",
       "emc": 48
+    },
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 307
     }
   ]
 }
