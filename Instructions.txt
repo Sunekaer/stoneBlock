@@ -1,0 +1,5 @@
+1 - Run Install.bat
+2 - Accept eula.txt file
+4 - Configure server.properties
+3 - Run LaunchServer.sh
+4 - Enjoy
