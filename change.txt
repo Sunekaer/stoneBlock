@@ -1,0 +1,17 @@
+Mods
+  Added
+    Building Gadgets
+
+Config
+  Enabled ProjectE Watch of Time
+  Disabled potion_enervator from industrial foregoing (Will be enable again once crash issues is fixed)
+  Disabled Fluid Chance Cubes
+
+Recipes
+  Added recipe for Aluminium Nuggets to Ingot
+  Added Induction Smelter recipes for Electrical Steel Ingot with all types of Silicon
+
+
+As there are featured servers on the server list in this pack, the pack will overwrite your current saved servers, so remember to write them down or copy your server.dat file before updating.
+
+ 

@@ -656,3 +656,10 @@ recipes.addShaped(<minecraft:trapdoor> * 2, [
   [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>, <ore:vanillaPlankWood>],
   [<ore:vanillaPlankWood>, <ore:vanillaPlankWood>, <ore:vanillaPlankWood>]
 ]);
+
+
+recipes.addShaped(<thermalfoundation:material:132>, [
+  [<thermalfoundation:material:196>, <thermalfoundation:material:196>, <thermalfoundation:material:196>],
+  [<thermalfoundation:material:196>, <thermalfoundation:material:196>, <thermalfoundation:material:196>],
+  [<thermalfoundation:material:196>, <thermalfoundation:material:196>, <thermalfoundation:material:196>]
+]);
