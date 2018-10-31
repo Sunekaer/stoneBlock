@@ -663,3 +663,9 @@ recipes.addShaped(<thermalfoundation:material:132>, [
   [<thermalfoundation:material:196>, <thermalfoundation:material:196>, <thermalfoundation:material:196>],
   [<thermalfoundation:material:196>, <thermalfoundation:material:196>, <thermalfoundation:material:196>]
 ]);
+
+recipes.addShaped(<ic2:resource:10>, [
+  [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>],
+  [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>],
+  [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]
+]);

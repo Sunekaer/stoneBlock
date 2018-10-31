@@ -1,17 +1,33 @@
-Mods
-  Added
-    Building Gadgets
+Recipes
+    Fixed recipe conflicts with Uranium (Sunekaer)
+    Lowered the material cost of Singularity (Sunekaer)
 
 Config
-  Enabled ProjectE Watch of Time
-  Disabled potion_enervator from industrial foregoing (Will be enable again once crash issues is fixed)
-  Disabled Fluid Chance Cubes
+    Enabled worldgen of Glowing Mushrooms (Sunekaer)
+    Disabled Ender Wing and Ender Wing Prime due to it spawning people on top of the world or inside blocks (Sunekaer)
+    Lowered EMC Value of infinity catalyst to match cost (Sunekaer)
+    Disables depreciated chicken (Knoxhack)
 
-Recipes
-  Added recipe for Aluminium Nuggets to Ingot
-  Added Induction Smelter recipes for Electrical Steel Ingot with all types of Silicon
+Fixed server files (Sunekaer)
 
+Mods
+  Updated
+    Bookshelf
+    Building Gadgets
+    CraftPresence
+    Cyclic
+    EnderIO
+    EnderCore
+    Extra Utilities 2
+    Forestry
+    OldJavaWarning
+    Mouse Tweaks
+    Placebo
+    Realistic Item Drops
+    Refined Storage
+    Refined Storage Addons
+    RFTools Dimensions
+    Void Island Control
+    XNet
 
 As there are featured servers on the server list in this pack, the pack will overwrite your current saved servers, so remember to write them down or copy your server.dat file before updating.
-
- 
