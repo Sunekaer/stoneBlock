@@ -43,3 +43,6 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_boots>);
 
 //remove AE2 disabled item
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
+
+recipes.remove(<mekanism:basicblock:5>);
+recipes.remove(<tp:steel_block>);

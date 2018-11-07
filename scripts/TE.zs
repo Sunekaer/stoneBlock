@@ -49,3 +49,27 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot>, <th
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot>, <thermalfoundation:material:96>, <enderio:item_material:5>, 8400);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot>, <thermalfoundation:material:160>, <refinedstorage:silicon>, 8400);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot>, <thermalfoundation:material:96>, <refinedstorage:silicon>, 8400);
+
+//TP Steel recipe
+recipes.remove(<tp:steel_ingot>);
+recipes.addShaped(<thermalfoundation:material:160> * 2, [
+ [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+ [<minecraft:iron_ingot>, <tp:stone_hammer>, <minecraft:iron_ingot>],
+ [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
+]);
+recipes.addShaped(<thermalfoundation:material:160> * 2, [
+ [<minecraft:coal>, <minecraft:coal>, <minecraft:coal>],
+ [<minecraft:iron_ingot>, <tp:stone_hammer>, <minecraft:iron_ingot>],
+ [<minecraft:coal>, <minecraft:coal>, <minecraft:coal>]
+]);
+
+
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium:2>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <exnihilocreatio:item_ore_aluminium:1>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <exnihilocreatio:item_ore_aluminium:1>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium:1>);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*3, <thermalfoundation:material:866>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*3, <thermalfoundation:material:865>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*2, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 5);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:2>, 4000, <thermalfoundation:material:864>, 75);

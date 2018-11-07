@@ -1,33 +1,46 @@
 Recipes
-    Fixed recipe conflicts with Uranium (Sunekaer)
-    Lowered the material cost of Singularity (Sunekaer)
+  Fixed Tiny Progressions recipe for steel not showing
+  Changed recipe for uranium 238
+  Changed 3x3 steel ingots in crafting table to make Thermal Steel block instead of Mekanism
+  Changed Alumimun Ore Chunks to mark Thermal aluminum ingot insted of mekanism's in Induction Smelter
 
 Config
-    Enabled worldgen of Glowing Mushrooms (Sunekaer)
-    Disabled Ender Wing and Ender Wing Prime due to it spawning people on top of the world or inside blocks (Sunekaer)
-    Lowered EMC Value of infinity catalyst to match cost (Sunekaer)
-    Disables depreciated chicken (Knoxhack)
+  Enabled Heatscar Spiders
+  Simple Inventory Sorting disabled Mouse-wheel movement
+  Disabled Compressed boneblock
 
-Fixed server files (Sunekaer)
 
 Mods
   Updated
+    Better Questing
     Bookshelf
+    Botania
+    Brandon's Core
     Building Gadgets
+    Chance Cubes
+    Chisels & Bits
+    Cyclops Core
+    Comforts
+    Compact Solars
     CraftPresence
-    Cyclic
-    EnderIO
-    EnderCore
-    Extra Utilities 2
-    Forestry
-    OldJavaWarning
-    Mouse Tweaks
-    Placebo
-    Realistic Item Drops
-    Refined Storage
-    Refined Storage Addons
-    RFTools Dimensions
-    Void Island Control
-    XNet
-
-As there are featured servers on the server list in this pack, the pack will overwrite your current saved servers, so remember to write them down or copy your server.dat file before updating.
+    Draconic Evolutions
+    EnergeticSheep
+    Environmental Tech
+    ET Lunar
+    EvilCraft
+    Integrated Dynamics
+    JEI
+    FTB Utilities
+    FTBLib
+    PlusTiC
+    Random Things
+    RandomTweaks
+    Reborn Core
+    roost
+    Shadowfacts' Forglin
+    Simply Jetpacks 2
+    Tinkers Construct
+    Tinkers' Tool Leveling
+    ValkyrieLib
+    WanionLib
+    Woot
