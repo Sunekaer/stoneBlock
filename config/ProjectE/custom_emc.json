@@ -203,6 +203,22 @@
     {
       "item": "minecraft:blaze_powder|0",
       "emc": 307
+    },
+    {
+      "item": "appliedenergistics2:crystal_seed|1200",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:energy_cell|0",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:crystal_seed|0",
+      "emc": 0
+    },
+    {
+      "item": "quantumstorage:quantum_battery|0",
+      "emc": 0
     }
   ]
 }

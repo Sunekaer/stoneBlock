@@ -27,10 +27,7 @@ mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:1>*2,<exnih
 mods.actuallyadditions.Crusher.addRecipe(<ic2:dust:5>, <minecraft:diamond>);
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:diamond>*2,<minecraft:diamond_horse_armor>);
 
-// mods.actuallyadditions.Crusher.addRecipe(<minecraft:diamond_horse_armor>);
-
-// <thermalfoundation:material>
-// <thermalfoundation:material:1>
-
+mods.actuallyadditions.Crusher.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>);
+mods.actuallyadditions.Crusher.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>);
 
 //mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);

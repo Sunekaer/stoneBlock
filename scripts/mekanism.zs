@@ -13,3 +13,6 @@ mods.mekanism.crusher.removeRecipe(<minecraft:sand>, <minecraft:gravel>);
 mods.mekanism.crusher.addRecipe(<minecraft:gravel>, <minecraft:dirt>);
 mods.mekanism.crusher.addRecipe(<minecraft:dirt>, <minecraft:sand>);
 mods.mekanism.crusher.addRecipe(<minecraft:sand>, <exnihilocreatio:block_dust>);
+
+mods.mekanism.crusher.addRecipe(<minecraft:netherrack>, <exnihilocreatio:block_netherrack_crushed>);
+mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <exnihilocreatio:block_endstone_crushed>);

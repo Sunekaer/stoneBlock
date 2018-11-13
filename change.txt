@@ -1,46 +1,24 @@
 Recipes
-  Fixed Tiny Progressions recipe for steel not showing
-  Changed recipe for uranium 238
-  Changed 3x3 steel ingots in crafting table to make Thermal Steel block instead of Mekanism
-  Changed Alumimun Ore Chunks to mark Thermal aluminum ingot insted of mekanism's in Induction Smelter
+  Added machine recipes for crushing of End Stone and Netherrack
 
 Config
-  Enabled Heatscar Spiders
-  Simple Inventory Sorting disabled Mouse-wheel movement
-  Disabled Compressed boneblock
-
+  Removed EMC on some AE2 items
+  Removed on Quantum Battery
 
 Mods
   Updated
-    Better Questing
-    Bookshelf
-    Botania
-    Brandon's Core
+    Applied Energistics 2
+    Buildcraft
     Building Gadgets
-    Chance Cubes
-    Chisels & Bits
-    Cyclops Core
-    Comforts
-    Compact Solars
     CraftPresence
-    Draconic Evolutions
-    EnergeticSheep
-    Environmental Tech
-    ET Lunar
-    EvilCraft
-    Integrated Dynamics
-    JEI
-    FTB Utilities
-    FTBLib
-    PlusTiC
+    Forestry
+    Industrial Craft
+    Industrial Foregoing
+    Morph-o-Tool
     Random Things
-    RandomTweaks
-    Reborn Core
-    roost
-    Shadowfacts' Forglin
-    Simply Jetpacks 2
-    Tinkers Construct
-    Tinkers' Tool Leveling
-    ValkyrieLib
+    RFTools
     WanionLib
-    Woot
+    Wither Skeleton Tweaks
+
+  Removed
+    MPUtils

@@ -69,7 +69,11 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <exnihilocreatio:item_ore_aluminium:1>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium:1>);
 
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*3, <thermalfoundation:material:866>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 75);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*3, <thermalfoundation:material:865>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:864>, 75);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>*2, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 5);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:160>, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:2>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132>*3, <thermalfoundation:material:866>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132>*3, <thermalfoundation:material:865>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132>*2, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:1>, 4000, <thermalfoundation:material:865>, 5);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132>, <minecraft:sand>, <exnihilocreatio:item_ore_aluminium:2>, 4000, <thermalfoundation:material:864>, 75);
+
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:netherrack>);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>, 4000);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 4000);

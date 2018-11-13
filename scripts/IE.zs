@@ -47,3 +47,6 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:prismarine_shard> * 2, <m
 //Bottling Machine
 //OutputStack, InputStack, InputFluid
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:xpjuice> * 1000);
+
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 2000);
