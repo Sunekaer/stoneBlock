@@ -5,7 +5,7 @@ about: Create a report to help us improve
 ---
 
 <!-- Thank you for submitting an issue for the relevant topic. Please ensure that you fill in all the required information needed as specified by the template below. -->
-<!-- Note: As you are reporting a bug, please ensure that you have logs uploaded to either Pastebin/Gist etc... No logs, not in Pastebin/ gist = Closing, and Ignoring the issue! -->
+<!-- Note: As you are reporting a bug, please ensure that you have logs uploaded to http://paste.feed-the-beast.com/ and link it... No logs linked = Closing, and Ignoring the issue! -->
 <!-- NOTE: If you have other mods installed or you have changed versions; please revert to a clean install and test again with a crash/bug before posting. -->
 
 ## Bug Report
@@ -19,7 +19,7 @@ about: Create a report to help us improve
 
 ## Logs
 <!-- Twitch logs can be found in the installation directory for the Twitch App.  Or click the "..." button on StoneBlock and hit "Open Folder" -->
-<!-- Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitHub -->
+<!-- Then upload the latest/crash logs to http://paste.feed-the-beast.com/ and link then here. DON'T Upload them to GitHub -->
 * Client/Server Log:
 * Crash Log:
 
