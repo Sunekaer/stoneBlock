@@ -157,7 +157,7 @@
 			"max-height": 60,
 			"in-village": "false",
 			"retrogen": "true",
-			"biome": "all",
+			"biome": "miningBiome",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [

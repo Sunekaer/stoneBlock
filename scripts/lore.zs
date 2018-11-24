@@ -43,3 +43,10 @@
 
 //Dragon Scale
 <mysticalagradditions:stuff:3>.addTooltip(format.yellow("Drops from the Ender Dragon"));
+
+
+<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}).addTooltip(format.yellow("Right click vanilla chicken with book"));
+<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:mramericanchick"}}).addTooltip(format.yellow("Right click vanilla chicken with black banner"));
+<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:boopbeepchick"}}).addTooltip(format.yellow("Right click vanilla chicken with grass block"));
+<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:funwaychick"}}).addTooltip(format.yellow("Right click vanilla chicken with tnt"));
+<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:chickenosto"}}).addTooltip(format.yellow("Right click vanilla chicken with cake"));

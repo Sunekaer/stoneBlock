@@ -219,6 +219,22 @@
     {
       "item": "quantumstorage:quantum_battery|0",
       "emc": 0
+    },
+    {
+      "item": "compactmachines3:wallbreakable|0",
+      "emc": 152
+    },
+    {
+      "item": "compactmachines3:tunneltool|0",
+      "emc": 1033
+    },
+    {
+      "item": "compactmachines3:redstonetunneltool|0",
+      "emc": 652
+    },
+    {
+      "item": "minecraft:iron_nugget|0",
+      "emc": 28
     }
   ]
 }

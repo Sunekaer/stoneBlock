@@ -1,0 +1,12 @@
+{
+  "active_render": true,
+  "drops": [
+    {
+      "block": "minecraft:stone:0",
+      "drop_with": "exnihilocreatio:item_pebble:0:4",
+      "drop_without": "exnihilocreatio:item_pebble:0:2",
+      "chance": 39,
+      "speed": 3.5
+    }
+  ]
+}

@@ -21,3 +21,10 @@ recipes.addShaped(<tp:growth_upgrade_two>, [
   [<minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}), <minecraft:end_crystal>, <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})],
   [<minecraft:end_crystal>, <tp:growth_upgrade>, <minecraft:end_crystal>]
 ]);
+
+recipes.remove(<tp:infin_bucket>);
+recipes.addShaped(<tp:infin_bucket>, [
+  [<minecraft:water_bucket>, <minecraft:ender_eye>, <minecraft:water_bucket>],
+  [<ore:ingotSteel>, <minecraft:water_bucket>, <ore:ingotSteel>],
+  [null, <ore:ingotSteel>, null]
+]);

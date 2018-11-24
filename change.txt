@@ -1,24 +1,53 @@
 Recipes
-  Added machine recipes for crushing of End Stone and Netherrack
+  Fixed Infinity Water Bucket #598
 
 Config
-  Removed EMC on some AE2 items
-  Removed on Quantum Battery
+  Added EMC for:
+    Compact Machine Wall
+    Tunnel
+    Redstone Tunnel
+    Dragon Scale
+
+  Corrected EMC value for:
+    Iron Nugget
+
+  Changed spawn biome for Oil Shale to miningBiome #608
+
+  Added tool tip for how to get these chickens
+    smartchicken
+    mramericanchick
+    boopbeepchick
+    funwaychick
+    chickenosto
 
 Mods
   Updated
-    Applied Energistics 2
-    Buildcraft
-    Building Gadgets
-    CraftPresence
+    Bad Wither No Cookie - Reload
+    Better Questing
+    Chisels & Bits
+    CraftTweaker
+    Custom Main Menu
+    Cyclic
+    Dark Utilities
+    FoamFix
     Forestry
+    FTB Utilities
+    FTBLib
     Industrial Craft
-    Industrial Foregoing
-    Morph-o-Tool
+    Iron Chests
+    Just Enough HarvestCraft
+    Just Enough Items
+    McJtyLib
+    PlusTiC
+    ProjectE
+    Psi
     Random Things
+    Reborn Core
+    Refined Storage
     RFTools
+    RFTools Control
+    RFTools Dimensions
+    Steve's Carts Reborn
+    Stoneblock Utilities
     WanionLib
-    Wither Skeleton Tweaks
-
-  Removed
-    MPUtils
+    Woot
