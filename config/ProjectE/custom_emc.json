@@ -235,6 +235,14 @@
     {
       "item": "minecraft:iron_nugget|0",
       "emc": 28
+    },
+    {
+      "item": "tp:dragon_scale|0",
+      "emc": 262144
+    },
+    {
+      "item": "mysticalagradditions:stuff|3",
+      "emc": 262144
     }
   ]
 }

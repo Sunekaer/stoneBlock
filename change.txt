@@ -1,53 +1,17 @@
 Recipes
-  Fixed Infinity Water Bucket #598
+  Fixed some recipe conflict #672
+  Made Dragon Egg Seeds use oreDict for dragon scale
+  Remove Minecraft Hoe's from oreDict do to AE Auto craft crash #657
 
 Config
-  Added EMC for:
-    Compact Machine Wall
-    Tunnel
-    Redstone Tunnel
-    Dragon Scale
-
-  Corrected EMC value for:
-    Iron Nugget
-
-  Changed spawn biome for Oil Shale to miningBiome #608
-
-  Added tool tip for how to get these chickens
-    smartchicken
-    mramericanchick
-    boopbeepchick
-    funwaychick
-    chickenosto
+  Fix invalid entries in lootbag blacklist #656
+  Added EMC for Dragon Scale again #667
+  Removed NFINIT-Gaming from FeaturedServers.json
 
 Mods
-  Updated
-    Bad Wither No Cookie - Reload
-    Better Questing
-    Chisels & Bits
-    CraftTweaker
-    Custom Main Menu
-    Cyclic
-    Dark Utilities
-    FoamFix
-    Forestry
-    FTB Utilities
-    FTBLib
-    Industrial Craft
-    Iron Chests
-    Just Enough HarvestCraft
-    Just Enough Items
-    McJtyLib
-    PlusTiC
-    ProjectE
-    Psi
-    Random Things
-    Reborn Core
-    Refined Storage
-    RFTools
-    RFTools Control
-    RFTools Dimensions
-    Steve's Carts Reborn
-    Stoneblock Utilities
-    WanionLib
-    Woot
+  BetterQuesting
+  EnderIO
+  FTBUtilities
+  FTBLib
+  OreExcavation
+  Steve's Carts Reborn

@@ -669,3 +669,17 @@ recipes.addShaped(<ic2:resource:10>, [
   [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>],
   [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]
 ]);
+
+recipes.removeShaped(<tp:emerald_multi>);
+recipes.addShaped(<tp:emerald_multi>, [
+  [<actuallyadditions:item_axe_emerald>, <actuallyadditions:item_shovel_emerald>, <actuallyadditions:item_pickaxe_emerald>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]
+]);
+
+recipes.removeShaped(<mysticalagradditions:dragon_egg_seeds>);
+recipes.addShaped(<mysticalagradditions:dragon_egg_seeds>, [
+  [<ore:dragonScale>, <mysticalagradditions:insanium>, <ore:dragonScale>],
+  [<mysticalagradditions:insanium>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium>],
+  [<ore:dragonScale>, <mysticalagradditions:insanium>, <ore:dragonScale>]
+]);

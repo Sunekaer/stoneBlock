@@ -46,3 +46,21 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
 
 recipes.remove(<mekanism:basicblock:5>);
 recipes.remove(<tp:steel_block>);
+
+//Removing duplicate tools
+mods.jei.JEI.removeAndHide(<tp:emerald_hoe>);
+mods.jei.JEI.removeAndHide(<tp:emerald_pickaxe>);
+mods.jei.JEI.removeAndHide(<tp:emerald_spade>);
+mods.jei.JEI.removeAndHide(<tp:emerald_axe>);
+mods.jei.JEI.removeAndHide(<tp:emerald_sword>);
+mods.jei.JEI.removeAndHide(<tp:emerald_battle>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_pickaxe_obsidian>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_axe_obsidian>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_shovel_obsidian>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_sword_obsidian>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_hoe_obsidian>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_sword>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_pickaxe>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_axe>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_spade>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:emerald_hoe>);
