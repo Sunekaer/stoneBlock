@@ -30,4 +30,9 @@ mods.actuallyadditions.Crusher.addRecipe(<minecraft:diamond>*2,<minecraft:diamon
 mods.actuallyadditions.Crusher.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>);
 mods.actuallyadditions.Crusher.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>);
 
+recipes.remove(<actuallyadditions:obsidian_paxel>);
+recipes.addShapeless(<actuallyadditions:obsidian_paxel>, [
+  <tp:obsidian_axe>, <tp:obsidian_pickaxe>, <tp:obsidian_sword>, <tp:obsidian_spade>, <tp:obsidian_hoe>
+]);
+
 //mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);

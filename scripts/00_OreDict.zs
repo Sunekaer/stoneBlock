@@ -1,3 +1,9 @@
+val toolHoe = <ore:toolHoe>;
+for item in toolHoe.items {
+	toolHoe.remove(item);
+}
+
+
 <ore:listAlllava>.add(<minecraft:lava_bucket>);
 <ore:listAllwater>.add(<minecraft:water_bucket>);
 <ore:listAlllava>.add(<chickens:liquid_egg:1>);
@@ -18,8 +24,3 @@
 <ore:vanillaLogWood>.add(<minecraft:log:3>);
 <ore:vanillaLogWood>.add(<minecraft:log2>);
 <ore:vanillaLogWood>.add(<minecraft:log2:1>);
-<ore:toolHoe>.remove(<minecraft:wooden_hoe>);
-<ore:toolHoe>.remove(<minecraft:stone_hoe>);
-<ore:toolHoe>.remove(<minecraft:iron_hoe>);
-<ore:toolHoe>.remove(<minecraft:diamond_hoe>);
-<ore:toolHoe>.remove(<minecraft:golden_hoe>);

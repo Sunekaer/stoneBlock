@@ -1,17 +1,17 @@
-Recipes
-  Fixed some recipe conflict #672
-  Made Dragon Egg Seeds use oreDict for dragon scale
-  Remove Minecraft Hoe's from oreDict do to AE Auto craft crash #657
+Fixed AA AIOT recipe #748
+Fixed AE2 Auto crafting causing crashing due to iron hoe ore dict #684
 
-Config
-  Fix invalid entries in lootbag blacklist #656
-  Added EMC for Dragon Scale again #667
-  Removed NFINIT-Gaming from FeaturedServers.json
 
-Mods
-  BetterQuesting
-  EnderIO
-  FTBUtilities
+Updated mods
+  Applied Energistics 2
+  Aroma1997Core
+  Aroma1997s Dimensional World
+  CraftPresence
+  Flux Networks #699
+  FTB Utilities #747
   FTBLib
-  OreExcavation
-  Steve's Carts Reborn
+  Mob Grinding Utils
+  PlusTic
+  ProjectE
+  Refined Storage #696
+  Sonar Core
