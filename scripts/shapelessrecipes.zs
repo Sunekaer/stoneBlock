@@ -25,3 +25,5 @@ recipes.addShapeless(<immersiveengineering:metal:5>, [<ore:ingotYellorium>, <ore
 
 recipes.addShapeless(<bigreactors:blockmetals>, [<ore:blockUranium>, <ore:sand>]);
 recipes.addShapeless(<ic2:resource:10>, [<ore:blockYellorium>, <ore:sand>]);
+
+recipes.addShapeless(<randomthings:glowingmushroom>, [<ore:listAllmushroom>, <ore:dustGlowstone>]);

@@ -1,17 +1,62 @@
-Fixed AA AIOT recipe #748
-Fixed AE2 Auto crafting causing crashing due to iron hoe ore dict #684
+A lot of mod updates there for Beta
 
+Added crafting recipe for Glowing Mushroom #760
+
+Updated to forge 1.12.2-14.23.5.2772
 
 Updated mods
-  Applied Energistics 2
-  Aroma1997Core
-  Aroma1997s Dimensional World
-  CraftPresence
-  Flux Networks #699
-  FTB Utilities #747
-  FTBLib
-  Mob Grinding Utils
-  PlusTic
-  ProjectE
-  Refined Storage #696
-  Sonar Core
+  ActuallyAdditions-1.12.2-r143.jar -> ActuallyAdditions-1.12.2-r144.jar
+  AttributeFix-1.12.2-1.0.1.jar -> AttributeFix-1.12.2-1.0.4.jar
+  AutoRegLib-1.3-20.jar -> AutoRegLib-1.3-24.jar
+  base-1.12.2-3.10.0.jar -> base-1.12.2-3.11.0.jar
+  BetterQuesting-3.5.277.jar -> BetterQuesting-3.5.281.jar
+  bonsaitrees-1.1.1-b138.jar -> bonsaitrees-1.1.2-b144.jar
+  Bookshelf-1.12.2-2.3.568.jar -> Bookshelf-1.12.2-2.3.569.jar
+  Botania r1.10-357.jar -> Botania r1.10-358.jar
+  BrandonsCore-1.12.2-2.4.7.189-universal.jar -> BrandonsCore-1.12.2-2.4.9.195-universal.jar
+  BuildingGadgets-2.4.6.jar -> BuildingGadgets-2.5.0.jar
+  ChanceCubes-1.12.2-3.2.2.240.jar -> ChanceCubes-1.12.2-3.2.3.242.jar
+  chiselsandbits-14.28.jar -> chiselsandbits-14.29.jar
+  compactmachines3-1.12.2-3.0.12-b215.jar -> compactmachines3-1.12.2-3.0.13-b236.jar
+  CTM-MC1.12.2-0.3.2.20.jar -> CTM-MC1.12.2-0.3.3.22.jar
+  Cucumber-1.12.2-1.1.1.jar -> Cucumber-1.12.2-1.1.3.jar
+  DarkUtils-1.12.2-1.8.218.jar -> DarkUtils-1.12.2-1.8.219.jar
+  Draconic-Evolution-1.12.2-2.3.17.321-universal.jar -> Draconic-Evolution-1.12.2-2.3.18.329-universal.jar
+  ducky-mod-1.12.2-0.1.0.jar -> ducky-mod-1.12.2-0.1.1.jar
+  EnderIO-1.12.2-5.0.38.jar -> EnderIO-1.12.2-5.0.39.jar
+  ExtraCells-1.12.2-2.6.1a.jar -> ExtraCells-1.12.2-2.6.2a.jar
+  ExtremeReactors-1.12.2-0.4.5.49.jar -> ExtremeReactors-1.12.2-0.4.5.50.jar
+  forestry_1.12.2-5.8.2.374.jar -> forestry_1.12.2-5.8.2.380.jar
+  Forgelin-1.8.0.jar -> Forgelin-1.8.2.jar
+  Guide-API-1.12-2.1.7-62.jar -> Guide-API-1.12-2.1.8-63.jar
+  Harvest-1.12-1.2.6-18.jar -> Harvest-1.12-1.2.7-20.jar
+  ImmersiveEngineering-0.12-86.jar -> ImmersiveEngineering-0.12-88.jar
+  industrialcraft-2-2.8.104-ex112.jar -> industrialcraft-2-2.8.105-ex112.jar
+  industrialforegoing-1.12.2-1.11.6-216.jar -> industrialforegoing-1.12.2-1.12.3-227.jar
+  IntegrationForegoing-1.12.2-1.7.4.jar -> IntegrationForegoing-1.12.2-1.8.2.jar
+  ironchest-1.12.2-7.0.54.838.jar -> ironchest-1.12.2-7.0.55.839.jar
+  jei_1.12.2-4.13.1.225.jar -> jei_1.12.2-4.14.3.242.jar
+  journeymap-1.12.2-5.5.2.jar -> journeymap-1.12.2-5.5.3.jar
+  llibrary-1.7.15-1.12.2.jar -> llibrary-1.7.17-1.12.2.jar
+  Morph-o-Tool-1.2-17.jar -> Morph-o-Tool-1.2-18.jar
+  mysticalagradditions-1.12-1.2.8.jar -> MysticalAgradditions-1.12.2-1.2.10.jar
+  MysticalAgriculture-1.12-1.6.13.jar -> MysticalAgriculture-1.12.2-1.7.0.jar
+  natura-1.12.2-4.3.2.62.jar -> natura-1.12.2-4.3.2.65.jar
+  p455w0rdslib-1.12-2.0.35.jar -> p455w0rdslib-1.12.2-2.0.36.jar
+  Pam's HarvestCraft 1.12.2za.jar -> Pam's HarvestCraft 1.12.2zb.jar
+  Psi-r1.1-60.jar -> Psi-r1.1-63.jar
+  QuantumStorage-1.12-4.6.2.jar -> QuantumStorage-1.12-4.6.4.jar
+  randomtweaks-1.12.2-2.2.0.3.jar -> randomtweaks-1.12.2-2.4.0.2.jar
+  RebornCore-1.12.2-3.10.5.350-universal.jar -> RebornCore-1.12.2-3.12.1.385-universal.jar
+  RebornStorage-1.12.2-3.2.2.65.jar -> RebornStorage-1.12.2-3.3.2.79.jar
+  rftools-1.12-7.58.jar -> rftools-1.12-7.59.jar
+  Signals-1.12.2-1.3.13-28-universal.jar -> Signals-1.12.2-1.4.1-30-universal.jar
+  StandardExpansion-3.4.145.jar -> StandardExpansion-3.4.146.jar
+  StevesCarts-1.12.2-2.4.26.125.jar -> StevesCarts-1.12.2-2.4.28.130.jar
+  StorageDrawers-1.12.2-5.3.7.jar -> StorageDrawers-1.12.2-5.3.8.jar
+  torchmaster_1.12.2-1.6.4.62.jar -> torchmaster_1.12.2-1.7.0.72.jar
+  UniDict-1.12.2-2.9.1.jar -> UniDict-1.12.2-2.9.2.jar
+  voidislandcontrol-1.5.0.jar -> voidislandcontrol-1.5.1.jar
+  WanionLib-1.12.2-1.9.jar -> WanionLib-1.12.2-2.2.jar
+  Wawla-1.12.2-2.5.264.jar -> Wawla-1.12.2-2.5.265.jar
+  zerocore-1.12-0.1.2.2.jar -> zerocore-1.12-0.1.2.3.jar
