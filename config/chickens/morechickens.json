@@ -737,5 +737,15 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:soulsandchicken",
     "Parent 2": "chickens:goldchicken"
+  },
+  "morechickens:amberchicken": {
+    "Name": "amberchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "cyclicmagic:crystallized_amber",
+    "Drop Item": "cyclicmagic:crystallized_amber",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:waterchicken",
+    "Parent 2": "chickens:logchicken"
   }
 }

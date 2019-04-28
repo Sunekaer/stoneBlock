@@ -73,7 +73,7 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Yeta Wrench" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="ELECTRICAL_STEEL" /><item name="" /><item name="ELECTRICAL_STEEL" />
+        <item name="ELECTRICAL_STEEL" /><item /><item name="ELECTRICAL_STEEL" />
         <item /><item name="GEAR_STONE" /><item />
         <item /><item name="ELECTRICAL_STEEL" /><item />
       </grid>
@@ -387,9 +387,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Conduit Facade, hardened" required="true">
     <crafting>
       <grid>
-        <item /><item name="dustObsidian" /><item />
-        <item name="dustObsidian" /><item name="enderio:item_conduit_facade:0" /><item name="dustObsidian" />
-        <item /><item name="dustObsidian" /><item />
+        <item /><item name="POWDER_OBSIDIAN" /><item />
+        <item name="POWDER_OBSIDIAN" /><item name="enderio:item_conduit_facade:0" /><item name="POWDER_OBSIDIAN" />
+        <item /><item name="POWDER_OBSIDIAN" /><item />
       </grid>
       <output name="enderio:item_conduit_facade:1" />
     </crafting>
@@ -418,9 +418,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Conduit Facade, transparent, hardened" required="true">
     <crafting>
       <grid>
-        <item /><item name="dustObsidian" /><item />
-        <item name="dustObsidian" /><item name="enderio:item_conduit_facade:2" /><item name="dustObsidian" />
-        <item /><item name="dustObsidian" /><item />
+        <item /><item name="POWDER_OBSIDIAN" /><item />
+        <item name="POWDER_OBSIDIAN" /><item name="enderio:item_conduit_facade:2" /><item name="POWDER_OBSIDIAN" />
+        <item /><item name="POWDER_OBSIDIAN" /><item />
       </grid>
       <output name="enderio:item_conduit_facade:3" />
     </crafting>
@@ -538,6 +538,16 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="Filter, Enchantment" required="true">
+    <crafting>
+      <shapeless>
+        <item name="enderio:item_basic_item_filter"/>
+        <item name="minecraft:enchanted_book"/>
+      </shapeless>
+      <output name="enderio:item_enchantment_filter_normal" />
+    </crafting>
+  </recipe>
+
   <recipe name="Filter, Advanced" required="true">
     <crafting>
       <grid>
@@ -594,11 +604,21 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Filter, Big" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="dustObsidian" /><item name="minecraft:paper" /><item name="dustObsidian" />
+        <item name="POWDER_OBSIDIAN" /><item name="minecraft:paper" /><item name="POWDER_OBSIDIAN" />
         <item name="minecraft:paper" /><item name="SKELETAL_CONTRACTOR" /><item name="minecraft:paper" />
-        <item name="dustObsidian" /><item name="minecraft:paper" /><item name="dustObsidian" />
+        <item name="POWDER_OBSIDIAN" /><item name="minecraft:paper" /><item name="POWDER_OBSIDIAN" />
       </grid>
       <output name="enderio:item_big_item_filter" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Filter, Enchantment, Big" required="true">
+    <crafting>
+      <shapeless>
+        <item name="enderio:item_big_item_filter"/>
+        <item name="minecraft:enchanted_book"/>
+      </shapeless>
+      <output name="enderio:item_enchantment_filter_big" />
     </crafting>
   </recipe>
 

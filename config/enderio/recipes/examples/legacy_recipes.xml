@@ -55,7 +55,7 @@ While workarounds have been added, access to new content is not guaranteed.
     <crafting>
       <grid size="3x3">
         <item name="ELECTRICAL_STEEL" /><item name="ELECTRICAL_STEEL" /><item name="ELECTRICAL_STEEL" />
-        <item name="EnderIO:block_tank:0" /><item name="CHASSIS" /><item name="EnderIO:block_tank:0" />
+        <item name="enderio:block_tank:0" /><item name="CHASSIS" /><item name="enderio:block_tank:0" />
         <item name="GEAR_STONE" /><item name="minecraft:piston" /><item name="GEAR_STONE" />
       </grid>
       <output name="enderio:block_combustion_generator" />
@@ -360,6 +360,16 @@ While workarounds have been added, access to new content is not guaranteed.
       <output name="enderio:block_reinforced_obsidian"/>
     </crafting>
   </recipe>
+
+  <recipe name="Infinity Dust Block 1" disabled="true" />
+  <recipe name="Infinity Dust Block 1, Uncrafting" disabled="true" />
+  <recipe name="Infinity Dust Block 1, Sagmilling" disabled="true" />
+  <recipe name="Infinity Dust Block 2" disabled="true" />
+  <recipe name="Infinity Dust Block 2, Uncrafting" disabled="true" />
+  <recipe name="Infinity Dust Block 2, Sagmilling" disabled="true" />
+  <recipe name="Infinity Dust Block 3" disabled="true" />
+  <recipe name="Infinity Dust Block 3, Uncrafting" disabled="true" />
+  <recipe name="Infinity Dust Block 3, Sagmilling" disabled="true" />
 
 <!-- sagmill.xml -->
 
