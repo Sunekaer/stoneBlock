@@ -23,7 +23,7 @@ With over 200 mods, **StoneBlock is not a lightweight pack!**
 
 ### My game is crashing on startup/freezing during world load, what do I do? (Or alternatively, how do I allocate the minimum 4 gigabytes of RAM?)
 
-If you game crashes while launching and the crash log has a line like `Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded` or `Caused by: java.lang.OutOfMemoryError: Java heap space`, it's because the game has run out of RAM. StoneBlock needs a minimum of 4 gigabytes—but ideally 6—to run.
+If your game crashes while launching and the crash log has a line like `Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded` or `Caused by: java.lang.OutOfMemoryError: Java heap space`, it's because the game has run out of RAM. StoneBlock needs a minimum of 4 gigabytes—but ideally 6—to run.
 
 Go to Twitch settings and make sure the amount of RAM is at least 5 or 6 gigabytes:
 ![image](https://user-images.githubusercontent.com/3900951/49124859-f6cff580-f28b-11e8-94f9-cda34e3021e9.png)
