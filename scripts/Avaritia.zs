@@ -23,3 +23,7 @@ mods.avaritia.ExtremeCrafting.addShapeless("ultimate_stew" ,<avaritia:ultimate_s
                                                                                             <minecraft:porkchop>,
                                                                                             <minecraft:rabbit_stew>
 ]);
+
+//Platinum and Iridium are disabled in avaritia.cfg, so the Infinity Catalyst doesn't need these
+mods.jei.JEI.removeAndHide(<avaritia:singularity:13>);
+mods.jei.JEI.removeAndHide(<avaritia:singularity:14>);

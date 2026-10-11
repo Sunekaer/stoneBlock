@@ -77,3 +77,6 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132
 mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:netherrack>);
 mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>, 4000);
 mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 4000);
+
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<bigreactors:dustmetals>);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<ic2:ingot:8>, <bigreactors:dustmetals>, 3600);

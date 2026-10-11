@@ -1,12 +1,28 @@
 {
   "active_render": true,
-  "drops": [
+  "handDrops": [
     {
       "block": "minecraft:stone:0",
-      "drop_with": "exnihilocreatio:item_pebble:0:4",
-      "drop_without": "exnihilocreatio:item_pebble:0:2",
+      "drop": "exnihilocreatio:item_pebble:0",
+      "drop_with": 4,
+      "drop_without": 2,
       "chance": 39,
       "speed": 3.5
+    }
+  ],
+  "crookDrops": [
+    {
+      "block": "minecraft:dirt:0",
+      "randomDrop": true,
+      "randomDropAmount": 1,
+      "drops": [
+        { "drop": "minecraft:sapling:0", "drop_size": 1 },
+        { "drop": "minecraft:sapling:1", "drop_size": 1 },
+        { "drop": "minecraft:sapling:2", "drop_size": 1 },
+        { "drop": "minecraft:sapling:3", "drop_size": 1 },
+        { "drop": "minecraft:sapling:4", "drop_size": 1 },
+        { "drop": "minecraft:sapling:5", "drop_size": 1 }
+      ]
     }
   ]
 }

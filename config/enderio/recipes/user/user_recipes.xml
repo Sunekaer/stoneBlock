@@ -120,5 +120,20 @@
     </sagmilling>
   </recipe>
 
+  <!-- EvilCraft START: EvilCraft-Compat's own Ender IO recipes, which crash on Ender IO 5.3 (disabled in evilcraftcompat.cfg) -->
+  <recipe name="Sagmill: EvilCraft Dark Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="evilcraft:dark_ore"/>
+      <output name="evilcraft:dark_gem" amount="2"/>
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: EvilCraft Dark Gem" required="false">
+    <sagmilling energy="2400">
+      <input name="evilcraft:dark_gem"/>
+      <output name="evilcraft:dark_gem_crushed"/>
+    </sagmilling>
+  </recipe>
+  <!-- EvilCraft END -->
+
 
 </enderio:recipes>

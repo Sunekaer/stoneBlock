@@ -6175,7 +6175,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "wct:infinity_booster_card",
+              "id:8": "ae2wtlib:infinity_booster_card",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -6305,7 +6305,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {

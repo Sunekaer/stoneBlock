@@ -5,6 +5,11 @@
     "output": "minecraft:clay:0"
   },
   {
+    "fluidName": "seed.oil",
+    "input": "exnihilocreatio:hive:0",
+    "output": "exnihilocreatio:hive:1"
+  },
+  {
     "fluidName": "lava",
     "input": "ore:dustRedstone",
     "output": "minecraft:netherrack:0"

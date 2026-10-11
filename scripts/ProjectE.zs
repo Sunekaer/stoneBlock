@@ -51,7 +51,7 @@ recipes.remove( < projecte: item.pe_repair_talisman > );
 mods.actuallyadditions.Empowerer.addRecipe( < projecte: item.pe_repair_talisman > , < projecte: item.pe_klein_star: 4 >.withTag({}) , < minecraft: diamond_block > , < actuallyadditions: block_crystal: 1 > , < actuallyadditions: block_crystal: 4 > , < minecraft: enchanted_book > .withTag({
   StoredEnchantments: [{
     lvl: 1 as short,
-    id: 70 as short
+    id: 70
   }]
 }), 500000, 160);
 
